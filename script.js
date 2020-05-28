@@ -39,7 +39,7 @@
       });
 
     myConnector.getData = function (table, doneCallback) {
-        $.getJSON("https://secure.fusebill.com/v1/customers", function(resp) {
+        $.getJSON("http://secure.fusebill.com/v1/customers", function(resp) {
         var feat = resp.features,
             tableData = [];
 
